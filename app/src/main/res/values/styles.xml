@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- defines style for textviews -->
+    <style name="menuOptionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">106dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:textColor">@color/textColor</item>
+
+    </style>
+
+    <style name="headerOneStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="headerTwoStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/textColor</item>
+
+    </style>
+
+    <style name="headerThreeStyle">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Audiobook Player</string>
+    <string name="books">Books</string>
+    <string name="author">Authors</string>
+</resources>
