@@ -14,6 +14,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // checks for clicks on now playing textView
+        TextView nowPlaying = (TextView) findViewById(R.id.now_playing);
+        nowPlaying.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent nowPlayingIntent = new Intent(MainActivity.this, NowPlayingActivity.class);
+                startActivity(nowPlayingIntent);
+            }
+        });
+
         // checks for clicks on books textView
         TextView books = (TextView) findViewById(R.id.all_books);
         books.setOnClickListener(new View.OnClickListener() {

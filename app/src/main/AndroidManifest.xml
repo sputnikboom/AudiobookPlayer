@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".BooksActivity"
             android:label="@string/books"
@@ -25,7 +24,10 @@
             android:name=".AuthorsActivity"
             android:label="@string/author"
             android:parentActivityName=".MainActivity" />
-
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="@string/now_playing"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

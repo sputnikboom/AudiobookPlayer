@@ -8,6 +8,11 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/now_playing"
+        style="@style/menuOptionStyle"
+        android:text="@string/now_playing"/>
+
+    <TextView
         android:id="@+id/all_books"
         style="@style/menuOptionStyle"
         android:text="@string/books" />
